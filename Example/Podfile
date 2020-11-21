@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'sodium-ios_Example' do
+  pod 'sodium-ios', :path => '../'
+
+  target 'sodium-ios_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

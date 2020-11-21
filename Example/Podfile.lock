@@ -1,0 +1,16 @@
+PODS:
+  - sodium-ios (0.0.1)
+
+DEPENDENCIES:
+  - sodium-ios (from `../`)
+
+EXTERNAL SOURCES:
+  sodium-ios:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  sodium-ios: a2efd496b21869f83a6a0b0c633d21dc6d312e65
+
+PODFILE CHECKSUM: 6aec80918db38329c16066d9a44a316b814f6f68
+
+COCOAPODS: 1.9.1

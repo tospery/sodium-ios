@@ -1,0 +1,808 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		901C8306A15A06E752A01D3BC7E2C255 /* sodium-ios */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 36EF705AF1B7D2FF6FBD543DD5E50B08 /* Build configuration list for PBXAggregateTarget "sodium-ios" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "sodium-ios";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		345C4F3989562FF5E465A07E253CF5F8 /* Pods-sodium-ios_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFC5332D4785EBB4B08B68735677C0F /* Pods-sodium-ios_Example-dummy.m */; };
+		851D519D446C6E7BA25030F0E2980335 /* Pods-sodium-ios_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EAC8F3411CED180503A711F061D4D3C /* Pods-sodium-ios_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B63C6F58305714DCE1B11B04E2ABE329 /* Pods-sodium-ios_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD5D75E35F07718860B6EBC5005E8E7 /* Pods-sodium-ios_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF6338272D3F00FB192BE49BAF135A1C /* Pods-sodium-ios_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A49AA80E82D259C64C36A20A7E42D70 /* Pods-sodium-ios_Tests-dummy.m */; };
+		F0FA7FF732B934C234BD72CE3D3631BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FD3BB73B740A4E5AD424AD351F6D1BAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		882966481693421C6EC017D9B819E071 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7550B3B43D21A506AC801F8D159571C9;
+			remoteInfo = "Pods-sodium-ios_Example";
+		};
+		C1677FC3420D0C59DF5CFAF494C4A8B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 901C8306A15A06E752A01D3BC7E2C255;
+			remoteInfo = "sodium-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01C017C5E2EE8A7FE16A98B52052BE25 /* crypto_shorthash_siphash24.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_shorthash_siphash24.h; path = "sodium-ios/include/crypto_shorthash_siphash24.h"; sourceTree = "<group>"; };
+		0532D64234B5B6408FEED74EECF88E7E /* crypto_stream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_stream.h; path = "sodium-ios/include/crypto_stream.h"; sourceTree = "<group>"; };
+		06C311744424E8437A4CE04750C83DA1 /* Pods-sodium-ios_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sodium-ios_Tests-Info.plist"; sourceTree = "<group>"; };
+		0EAC8F3411CED180503A711F061D4D3C /* Pods-sodium-ios_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-sodium-ios_Example-umbrella.h"; sourceTree = "<group>"; };
+		1030DC5A27A6CAFA38F822791626B63F /* crypto_sign_ed25519.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_sign_ed25519.h; path = "sodium-ios/include/crypto_sign_ed25519.h"; sourceTree = "<group>"; };
+		1112276E3242D0A68D1EB3EE10C4AF44 /* crypto_verify_32.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_verify_32.h; path = "sodium-ios/include/crypto_verify_32.h"; sourceTree = "<group>"; };
+		120FA6AEF30D4A50A6185E1A88A461B4 /* sodium-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "sodium-ios.release.xcconfig"; sourceTree = "<group>"; };
+		12B7091396BAE0101CA1669270A1FB24 /* crypto_sign.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_sign.h; path = "sodium-ios/include/crypto_sign.h"; sourceTree = "<group>"; };
+		134139ECEEC123D16691DC7B02A5D82C /* crypto_uint16.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_uint16.h; path = "sodium-ios/include/crypto_uint16.h"; sourceTree = "<group>"; };
+		161D0C1B13B55BE60852A799D030EC39 /* crypto_auth_hmacsha512256.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_auth_hmacsha512256.h; path = "sodium-ios/include/crypto_auth_hmacsha512256.h"; sourceTree = "<group>"; };
+		1712222F58E1B7A4B1F082593B8E895A /* crypto_hash_sha256.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_hash_sha256.h; path = "sodium-ios/include/crypto_hash_sha256.h"; sourceTree = "<group>"; };
+		18DC0C63AF76C9B9AF8EE4CB7B6C73DB /* crypto_core_salsa208.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_core_salsa208.h; path = "sodium-ios/include/crypto_core_salsa208.h"; sourceTree = "<group>"; };
+		1A747F458CE2735A32D9E2D166F78F4A /* crypto_hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_hash.h; path = "sodium-ios/include/crypto_hash.h"; sourceTree = "<group>"; };
+		1B323A966D3A4B3F6C193BB74D802927 /* crypto_aead_chacha20poly1305.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_aead_chacha20poly1305.h; path = "sodium-ios/include/crypto_aead_chacha20poly1305.h"; sourceTree = "<group>"; };
+		1DD83950BC26B8960B923AA170A560C4 /* runtime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = runtime.h; path = "sodium-ios/include/runtime.h"; sourceTree = "<group>"; };
+		1E45C0D436D1C0C0568E17296F1F9320 /* crypto_pwhash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_pwhash.h; path = "sodium-ios/include/crypto_pwhash.h"; sourceTree = "<group>"; };
+		206D5FA393D69E5104F74CA8266E9BB7 /* sodium-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "sodium-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		2B5085E906F2F5B7CF04308AFAB5E14A /* crypto_core_hsalsa20.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_core_hsalsa20.h; path = "sodium-ios/include/crypto_core_hsalsa20.h"; sourceTree = "<group>"; };
+		2E1EBAB5C5CC16BB434BEF59F98BF651 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3365276CA2C0E9E1F21977A9E70E7366 /* crypto_generichash_blake2b.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_generichash_blake2b.h; path = "sodium-ios/include/crypto_generichash_blake2b.h"; sourceTree = "<group>"; };
+		336DBAF1F29219E5EB3CDD84F6C6FCA9 /* Pods-sodium-ios_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sodium-ios_Example-Info.plist"; sourceTree = "<group>"; };
+		33E1573E6FA5CC4641CBCA70F61FF784 /* crypto_pwhash_scryptsalsa208sha256.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_pwhash_scryptsalsa208sha256.h; path = "sodium-ios/include/crypto_pwhash_scryptsalsa208sha256.h"; sourceTree = "<group>"; };
+		3548B03DF59C4181B19F0EDC06FF70F9 /* Pods-sodium-ios_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sodium-ios_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		375F6223A513719BF253BD852661010E /* randombytes_sysrandom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = randombytes_sysrandom.h; path = "sodium-ios/include/randombytes_sysrandom.h"; sourceTree = "<group>"; };
+		384B4AECEC6A77D41C58EA99E48E4F62 /* Pods-sodium-ios_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sodium-ios_Example.release.xcconfig"; sourceTree = "<group>"; };
+		393624BA5F0908562BF871BE546016A4 /* sodium-ios.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "sodium-ios.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3DBBDBD26F8226F04D8E5186E892E7B3 /* libsodium.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libsodium.a; path = "sodium-ios/libsodium.a"; sourceTree = "<group>"; };
+		4262296C83B7E132354B64458A50CBB5 /* crypto_uint64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_uint64.h; path = "sodium-ios/include/crypto_uint64.h"; sourceTree = "<group>"; };
+		441CE1138438FB87B656474F4D731F3B /* crypto_int64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_int64.h; path = "sodium-ios/include/crypto_int64.h"; sourceTree = "<group>"; };
+		44F30F7C703BDDDAB03D579CC962888D /* sodium-lib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "sodium-lib.h"; path = "sodium-ios/include/sodium-lib.h"; sourceTree = "<group>"; };
+		45C371E3F0094F10A886F18650B44A8A /* crypto_stream_salsa208.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_stream_salsa208.h; path = "sodium-ios/include/crypto_stream_salsa208.h"; sourceTree = "<group>"; };
+		4627B49D4DB7F1D6FDE5E86CB6547070 /* crypto_core_salsa2012.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_core_salsa2012.h; path = "sodium-ios/include/crypto_core_salsa2012.h"; sourceTree = "<group>"; };
+		4A36435E4D53852DACDF93262901ACBD /* crypto_pwhash_argon2i.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_pwhash_argon2i.h; path = "sodium-ios/include/crypto_pwhash_argon2i.h"; sourceTree = "<group>"; };
+		4A49AA80E82D259C64C36A20A7E42D70 /* Pods-sodium-ios_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-sodium-ios_Tests-dummy.m"; sourceTree = "<group>"; };
+		4C06DBF2066A1B99B15957B83252EDDB /* Pods_sodium_ios_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_sodium_ios_Example.framework; path = "Pods-sodium-ios_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		519077CD0FF32AB0120026B116A0B777 /* randombytes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = randombytes.h; path = "sodium-ios/include/randombytes.h"; sourceTree = "<group>"; };
+		57DA5A278FF77D3A8836E2A555BA834C /* randombytes_salsa20_random.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = randombytes_salsa20_random.h; path = "sodium-ios/include/randombytes_salsa20_random.h"; sourceTree = "<group>"; };
+		5E6F547359252EB0C1CC9E915FF4A963 /* crypto_core_hchacha20.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_core_hchacha20.h; path = "sodium-ios/include/crypto_core_hchacha20.h"; sourceTree = "<group>"; };
+		69661A2C71970C719A8C7179DB0413DF /* version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = version.h; path = "sodium-ios/include/version.h"; sourceTree = "<group>"; };
+		6D5779AA1283421BAE583C9877B5B42A /* crypto_verify_16.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_verify_16.h; path = "sodium-ios/include/crypto_verify_16.h"; sourceTree = "<group>"; };
+		6EE24E19E9C81F4932CFC20C51BA9606 /* crypto_onetimeauth_poly1305.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_onetimeauth_poly1305.h; path = "sodium-ios/include/crypto_onetimeauth_poly1305.h"; sourceTree = "<group>"; };
+		6EF8167B09566C6F548D0C455573FEEB /* crypto_stream_xsalsa20.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_stream_xsalsa20.h; path = "sodium-ios/include/crypto_stream_xsalsa20.h"; sourceTree = "<group>"; };
+		7646CF3164D5143304027A8116D79BEA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7C4DAE1C9653C1081951A17112339237 /* Pods_sodium_ios_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_sodium_ios_Tests.framework; path = "Pods-sodium-ios_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CA2772DD75F0D1942F59388AA187E4F /* crypto_shorthash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_shorthash.h; path = "sodium-ios/include/crypto_shorthash.h"; sourceTree = "<group>"; };
+		81E766E78F114358DAFD4D388E1574DB /* crypto_hash_sha512.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_hash_sha512.h; path = "sodium-ios/include/crypto_hash_sha512.h"; sourceTree = "<group>"; };
+		855A91927C4B5EA84ABB52F5B5562FAD /* crypto_stream_salsa20.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_stream_salsa20.h; path = "sodium-ios/include/crypto_stream_salsa20.h"; sourceTree = "<group>"; };
+		90E13D0C0D1D1C36233CAE6AAA9E769A /* crypto_box_curve25519xsalsa20poly1305.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_box_curve25519xsalsa20poly1305.h; path = "sodium-ios/include/crypto_box_curve25519xsalsa20poly1305.h"; sourceTree = "<group>"; };
+		91749D516282F13006201F159258A1DD /* Pods-sodium-ios_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sodium-ios_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B7E439253EE93F0B5A6D9368386D4A6 /* crypto_scalarmult_curve25519.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_scalarmult_curve25519.h; path = "sodium-ios/include/crypto_scalarmult_curve25519.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F6BE0D3AE303D8EF0D8350F990FB928 /* crypto_stream_salsa2012.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_stream_salsa2012.h; path = "sodium-ios/include/crypto_stream_salsa2012.h"; sourceTree = "<group>"; };
+		A05A8F617703179A098AE5AE0158BE9D /* crypto_stream_chacha20.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_stream_chacha20.h; path = "sodium-ios/include/crypto_stream_chacha20.h"; sourceTree = "<group>"; };
+		A2507700A52F963C226C8A6A8DAA2954 /* crypto_core_salsa20.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_core_salsa20.h; path = "sodium-ios/include/crypto_core_salsa20.h"; sourceTree = "<group>"; };
+		A8CE8E3635B774CB6B2EDAE505133FDE /* crypto_generichash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_generichash.h; path = "sodium-ios/include/crypto_generichash.h"; sourceTree = "<group>"; };
+		AAD5D75E35F07718860B6EBC5005E8E7 /* Pods-sodium-ios_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-sodium-ios_Tests-umbrella.h"; sourceTree = "<group>"; };
+		AC6775D88FB84304DF3C8A1C53472165 /* crypto_uint32.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_uint32.h; path = "sodium-ios/include/crypto_uint32.h"; sourceTree = "<group>"; };
+		AD39726B600E3D0FA6283A95647D4515 /* Pods-sodium-ios_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-sodium-ios_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B366B3CE5DACB7DB5C62359EA74B20FF /* Pods-sodium-ios_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sodium-ios_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B37263C14C4939D337E7907ED47C471C /* Pods-sodium-ios_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-sodium-ios_Example.modulemap"; sourceTree = "<group>"; };
+		B45EBF9EFE090AD5C6943AC888B5BC5A /* crypto_uint8.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_uint8.h; path = "sodium-ios/include/crypto_uint8.h"; sourceTree = "<group>"; };
+		B49E58633BEE4297C7689B1A2F6AE649 /* crypto_aead_aes256gcm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_aead_aes256gcm.h; path = "sodium-ios/include/crypto_aead_aes256gcm.h"; sourceTree = "<group>"; };
+		B72737BCE475821ED6534DB2730FF2AB /* crypto_onetimeauth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_onetimeauth.h; path = "sodium-ios/include/crypto_onetimeauth.h"; sourceTree = "<group>"; };
+		BA2B54B94E56F71726E904BBF73DDDEC /* crypto_auth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_auth.h; path = "sodium-ios/include/crypto_auth.h"; sourceTree = "<group>"; };
+		BFF32960565FC71B150C9DDDC85AD78C /* Pods-sodium-ios_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-sodium-ios_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C46F803360608F6FC116A0351AC4F1C1 /* crypto_secretbox_xsalsa20poly1305.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_secretbox_xsalsa20poly1305.h; path = "sodium-ios/include/crypto_secretbox_xsalsa20poly1305.h"; sourceTree = "<group>"; };
+		C721FE2C12E30FA770AC0FF14A9E7F23 /* crypto_sign_edwards25519sha512batch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_sign_edwards25519sha512batch.h; path = "sodium-ios/include/crypto_sign_edwards25519sha512batch.h"; sourceTree = "<group>"; };
+		C948B24BE99051C67BC1D0BD8AD699E9 /* crypto_secretbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_secretbox.h; path = "sodium-ios/include/crypto_secretbox.h"; sourceTree = "<group>"; };
+		CE7379B319DA5EA63FDCF0C1AA1BF9C2 /* utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = utils.h; path = "sodium-ios/include/utils.h"; sourceTree = "<group>"; };
+		D3868675289E841E802568C7491CC20F /* crypto_auth_hmacsha256.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_auth_hmacsha256.h; path = "sodium-ios/include/crypto_auth_hmacsha256.h"; sourceTree = "<group>"; };
+		D6C033080B418FDF9E75277F740FE0F9 /* export.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = export.h; path = "sodium-ios/include/export.h"; sourceTree = "<group>"; };
+		D777E20DF89B548050AF5C9931650F58 /* crypto_verify_64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_verify_64.h; path = "sodium-ios/include/crypto_verify_64.h"; sourceTree = "<group>"; };
+		D93565DF2318893E55D9D710C4E2BE2F /* Pods-sodium-ios_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sodium-ios_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DAF0F4B5928ACEE3AF2A5946F27DE980 /* crypto_int32.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_int32.h; path = "sodium-ios/include/crypto_int32.h"; sourceTree = "<group>"; };
+		DB350F4777AE057C6C670A38EE61C952 /* crypto_scalarmult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_scalarmult.h; path = "sodium-ios/include/crypto_scalarmult.h"; sourceTree = "<group>"; };
+		DD4CA594F8F3322F25D8ABDC545134B3 /* crypto_stream_aes128ctr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_stream_aes128ctr.h; path = "sodium-ios/include/crypto_stream_aes128ctr.h"; sourceTree = "<group>"; };
+		E23C533462ABE07CBE585EA871F0FF0A /* Pods-sodium-ios_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-sodium-ios_Tests.modulemap"; sourceTree = "<group>"; };
+		E856BEB555A491563BF89975AA5B9370 /* crypto_auth_hmacsha512.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_auth_hmacsha512.h; path = "sodium-ios/include/crypto_auth_hmacsha512.h"; sourceTree = "<group>"; };
+		EDE3DEF319F7DE097F6FFAF6CD2EAE8A /* crypto_box.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto_box.h; path = "sodium-ios/include/crypto_box.h"; sourceTree = "<group>"; };
+		EFC679710EE945C1F1B03576AA85DD75 /* Pods-sodium-ios_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sodium-ios_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FEB65B7D0BB0F0B8033C890C96E69552 /* core.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = core.h; path = "sodium-ios/include/core.h"; sourceTree = "<group>"; };
+		FFFC5332D4785EBB4B08B68735677C0F /* Pods-sodium-ios_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-sodium-ios_Example-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87341106784F82050BFDD10C5AF8C58C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0FA7FF732B934C234BD72CE3D3631BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEB8FE0569E48A810DC811B7EDD990BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD3BB73B740A4E5AD424AD351F6D1BAD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E80B8282BF8293C3809F262F29E44C5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				397608E6E5E73165AD461007CF6ACAAD /* Pods-sodium-ios_Example */,
+				D81B3400189C54B2D94F4597C387A152 /* Pods-sodium-ios_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		397608E6E5E73165AD461007CF6ACAAD /* Pods-sodium-ios_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B37263C14C4939D337E7907ED47C471C /* Pods-sodium-ios_Example.modulemap */,
+				AD39726B600E3D0FA6283A95647D4515 /* Pods-sodium-ios_Example-acknowledgements.markdown */,
+				3548B03DF59C4181B19F0EDC06FF70F9 /* Pods-sodium-ios_Example-acknowledgements.plist */,
+				FFFC5332D4785EBB4B08B68735677C0F /* Pods-sodium-ios_Example-dummy.m */,
+				336DBAF1F29219E5EB3CDD84F6C6FCA9 /* Pods-sodium-ios_Example-Info.plist */,
+				0EAC8F3411CED180503A711F061D4D3C /* Pods-sodium-ios_Example-umbrella.h */,
+				D93565DF2318893E55D9D710C4E2BE2F /* Pods-sodium-ios_Example.debug.xcconfig */,
+				384B4AECEC6A77D41C58EA99E48E4F62 /* Pods-sodium-ios_Example.release.xcconfig */,
+			);
+			name = "Pods-sodium-ios_Example";
+			path = "Target Support Files/Pods-sodium-ios_Example";
+			sourceTree = "<group>";
+		};
+		418782AE055DECF3D9FB615418F45C37 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				206D5FA393D69E5104F74CA8266E9BB7 /* sodium-ios.debug.xcconfig */,
+				120FA6AEF30D4A50A6185E1A88A461B4 /* sodium-ios.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/sodium-ios";
+			sourceTree = "<group>";
+		};
+		63B24244E8709BBF35AABE230201FF05 /* sodium-ios */ = {
+			isa = PBXGroup;
+			children = (
+				FEB65B7D0BB0F0B8033C890C96E69552 /* core.h */,
+				B49E58633BEE4297C7689B1A2F6AE649 /* crypto_aead_aes256gcm.h */,
+				1B323A966D3A4B3F6C193BB74D802927 /* crypto_aead_chacha20poly1305.h */,
+				BA2B54B94E56F71726E904BBF73DDDEC /* crypto_auth.h */,
+				D3868675289E841E802568C7491CC20F /* crypto_auth_hmacsha256.h */,
+				E856BEB555A491563BF89975AA5B9370 /* crypto_auth_hmacsha512.h */,
+				161D0C1B13B55BE60852A799D030EC39 /* crypto_auth_hmacsha512256.h */,
+				EDE3DEF319F7DE097F6FFAF6CD2EAE8A /* crypto_box.h */,
+				90E13D0C0D1D1C36233CAE6AAA9E769A /* crypto_box_curve25519xsalsa20poly1305.h */,
+				5E6F547359252EB0C1CC9E915FF4A963 /* crypto_core_hchacha20.h */,
+				2B5085E906F2F5B7CF04308AFAB5E14A /* crypto_core_hsalsa20.h */,
+				A2507700A52F963C226C8A6A8DAA2954 /* crypto_core_salsa20.h */,
+				4627B49D4DB7F1D6FDE5E86CB6547070 /* crypto_core_salsa2012.h */,
+				18DC0C63AF76C9B9AF8EE4CB7B6C73DB /* crypto_core_salsa208.h */,
+				A8CE8E3635B774CB6B2EDAE505133FDE /* crypto_generichash.h */,
+				3365276CA2C0E9E1F21977A9E70E7366 /* crypto_generichash_blake2b.h */,
+				1A747F458CE2735A32D9E2D166F78F4A /* crypto_hash.h */,
+				1712222F58E1B7A4B1F082593B8E895A /* crypto_hash_sha256.h */,
+				81E766E78F114358DAFD4D388E1574DB /* crypto_hash_sha512.h */,
+				DAF0F4B5928ACEE3AF2A5946F27DE980 /* crypto_int32.h */,
+				441CE1138438FB87B656474F4D731F3B /* crypto_int64.h */,
+				B72737BCE475821ED6534DB2730FF2AB /* crypto_onetimeauth.h */,
+				6EE24E19E9C81F4932CFC20C51BA9606 /* crypto_onetimeauth_poly1305.h */,
+				1E45C0D436D1C0C0568E17296F1F9320 /* crypto_pwhash.h */,
+				4A36435E4D53852DACDF93262901ACBD /* crypto_pwhash_argon2i.h */,
+				33E1573E6FA5CC4641CBCA70F61FF784 /* crypto_pwhash_scryptsalsa208sha256.h */,
+				DB350F4777AE057C6C670A38EE61C952 /* crypto_scalarmult.h */,
+				9B7E439253EE93F0B5A6D9368386D4A6 /* crypto_scalarmult_curve25519.h */,
+				C948B24BE99051C67BC1D0BD8AD699E9 /* crypto_secretbox.h */,
+				C46F803360608F6FC116A0351AC4F1C1 /* crypto_secretbox_xsalsa20poly1305.h */,
+				7CA2772DD75F0D1942F59388AA187E4F /* crypto_shorthash.h */,
+				01C017C5E2EE8A7FE16A98B52052BE25 /* crypto_shorthash_siphash24.h */,
+				12B7091396BAE0101CA1669270A1FB24 /* crypto_sign.h */,
+				1030DC5A27A6CAFA38F822791626B63F /* crypto_sign_ed25519.h */,
+				C721FE2C12E30FA770AC0FF14A9E7F23 /* crypto_sign_edwards25519sha512batch.h */,
+				0532D64234B5B6408FEED74EECF88E7E /* crypto_stream.h */,
+				DD4CA594F8F3322F25D8ABDC545134B3 /* crypto_stream_aes128ctr.h */,
+				A05A8F617703179A098AE5AE0158BE9D /* crypto_stream_chacha20.h */,
+				855A91927C4B5EA84ABB52F5B5562FAD /* crypto_stream_salsa20.h */,
+				9F6BE0D3AE303D8EF0D8350F990FB928 /* crypto_stream_salsa2012.h */,
+				45C371E3F0094F10A886F18650B44A8A /* crypto_stream_salsa208.h */,
+				6EF8167B09566C6F548D0C455573FEEB /* crypto_stream_xsalsa20.h */,
+				134139ECEEC123D16691DC7B02A5D82C /* crypto_uint16.h */,
+				AC6775D88FB84304DF3C8A1C53472165 /* crypto_uint32.h */,
+				4262296C83B7E132354B64458A50CBB5 /* crypto_uint64.h */,
+				B45EBF9EFE090AD5C6943AC888B5BC5A /* crypto_uint8.h */,
+				6D5779AA1283421BAE583C9877B5B42A /* crypto_verify_16.h */,
+				1112276E3242D0A68D1EB3EE10C4AF44 /* crypto_verify_32.h */,
+				D777E20DF89B548050AF5C9931650F58 /* crypto_verify_64.h */,
+				D6C033080B418FDF9E75277F740FE0F9 /* export.h */,
+				519077CD0FF32AB0120026B116A0B777 /* randombytes.h */,
+				57DA5A278FF77D3A8836E2A555BA834C /* randombytes_salsa20_random.h */,
+				375F6223A513719BF253BD852661010E /* randombytes_sysrandom.h */,
+				1DD83950BC26B8960B923AA170A560C4 /* runtime.h */,
+				44F30F7C703BDDDAB03D579CC962888D /* sodium-lib.h */,
+				CE7379B319DA5EA63FDCF0C1AA1BF9C2 /* utils.h */,
+				69661A2C71970C719A8C7179DB0413DF /* version.h */,
+				97F2469156475900D4839F58C2F4310E /* Frameworks */,
+				8DBC32F0EC3B9D9ABEC647A1C0AEFBD3 /* Pod */,
+				418782AE055DECF3D9FB615418F45C37 /* Support Files */,
+			);
+			name = "sodium-ios";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8DBC32F0EC3B9D9ABEC647A1C0AEFBD3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7646CF3164D5143304027A8116D79BEA /* LICENSE */,
+				2E1EBAB5C5CC16BB434BEF59F98BF651 /* README.md */,
+				393624BA5F0908562BF871BE546016A4 /* sodium-ios.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		97F2469156475900D4839F58C2F4310E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DBBDBD26F8226F04D8E5186E892E7B3 /* libsodium.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B436996CA9196B517603DDB07BD55F84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C06DBF2066A1B99B15957B83252EDDB /* Pods_sodium_ios_Example.framework */,
+				7C4DAE1C9653C1081951A17112339237 /* Pods_sodium_ios_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				DF1CE5D06F76C1DE8F178859AB771143 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B436996CA9196B517603DDB07BD55F84 /* Products */,
+				2E80B8282BF8293C3809F262F29E44C5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D81B3400189C54B2D94F4597C387A152 /* Pods-sodium-ios_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E23C533462ABE07CBE585EA871F0FF0A /* Pods-sodium-ios_Tests.modulemap */,
+				BFF32960565FC71B150C9DDDC85AD78C /* Pods-sodium-ios_Tests-acknowledgements.markdown */,
+				EFC679710EE945C1F1B03576AA85DD75 /* Pods-sodium-ios_Tests-acknowledgements.plist */,
+				4A49AA80E82D259C64C36A20A7E42D70 /* Pods-sodium-ios_Tests-dummy.m */,
+				06C311744424E8437A4CE04750C83DA1 /* Pods-sodium-ios_Tests-Info.plist */,
+				AAD5D75E35F07718860B6EBC5005E8E7 /* Pods-sodium-ios_Tests-umbrella.h */,
+				91749D516282F13006201F159258A1DD /* Pods-sodium-ios_Tests.debug.xcconfig */,
+				B366B3CE5DACB7DB5C62359EA74B20FF /* Pods-sodium-ios_Tests.release.xcconfig */,
+			);
+			name = "Pods-sodium-ios_Tests";
+			path = "Target Support Files/Pods-sodium-ios_Tests";
+			sourceTree = "<group>";
+		};
+		DF1CE5D06F76C1DE8F178859AB771143 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63B24244E8709BBF35AABE230201FF05 /* sodium-ios */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8042C1868E1A090127FC3CAEFFEB3224 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B63C6F58305714DCE1B11B04E2ABE329 /* Pods-sodium-ios_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D70232F81E6B50DE1523FE966ACB2D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851D519D446C6E7BA25030F0E2980335 /* Pods-sodium-ios_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7550B3B43D21A506AC801F8D159571C9 /* Pods-sodium-ios_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FE308AB23CBBD88EE71A10CC9281405 /* Build configuration list for PBXNativeTarget "Pods-sodium-ios_Example" */;
+			buildPhases = (
+				80D70232F81E6B50DE1523FE966ACB2D /* Headers */,
+				A7014171110176D15AB158DBD32C1E30 /* Sources */,
+				87341106784F82050BFDD10C5AF8C58C /* Frameworks */,
+				9AD8DB9102172B9D2BE8F32469BD2130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B390C1F1045377935AAA9193A3B7FFC /* PBXTargetDependency */,
+			);
+			name = "Pods-sodium-ios_Example";
+			productName = "Pods-sodium-ios_Example";
+			productReference = 4C06DBF2066A1B99B15957B83252EDDB /* Pods_sodium_ios_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8FA4CD6E8B115021C7393010535AA38F /* Pods-sodium-ios_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45A985067BC14CF35C05E4C6FFE4AEE5 /* Build configuration list for PBXNativeTarget "Pods-sodium-ios_Tests" */;
+			buildPhases = (
+				8042C1868E1A090127FC3CAEFFEB3224 /* Headers */,
+				2827B2CE90AD3DCBC664B4B0E5415414 /* Sources */,
+				BEB8FE0569E48A810DC811B7EDD990BC /* Frameworks */,
+				EEAB6786742E1B5B839D970F7A39CC71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35E00EC0ED52372604E1CB0D61501498 /* PBXTargetDependency */,
+			);
+			name = "Pods-sodium-ios_Tests";
+			productName = "Pods-sodium-ios_Tests";
+			productReference = 7C4DAE1C9653C1081951A17112339237 /* Pods_sodium_ios_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B436996CA9196B517603DDB07BD55F84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7550B3B43D21A506AC801F8D159571C9 /* Pods-sodium-ios_Example */,
+				8FA4CD6E8B115021C7393010535AA38F /* Pods-sodium-ios_Tests */,
+				901C8306A15A06E752A01D3BC7E2C255 /* sodium-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AD8DB9102172B9D2BE8F32469BD2130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEAB6786742E1B5B839D970F7A39CC71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2827B2CE90AD3DCBC664B4B0E5415414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF6338272D3F00FB192BE49BAF135A1C /* Pods-sodium-ios_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7014171110176D15AB158DBD32C1E30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345C4F3989562FF5E465A07E253CF5F8 /* Pods-sodium-ios_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35E00EC0ED52372604E1CB0D61501498 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-sodium-ios_Example";
+			target = 7550B3B43D21A506AC801F8D159571C9 /* Pods-sodium-ios_Example */;
+			targetProxy = 882966481693421C6EC017D9B819E071 /* PBXContainerItemProxy */;
+		};
+		4B390C1F1045377935AAA9193A3B7FFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "sodium-ios";
+			target = 901C8306A15A06E752A01D3BC7E2C255 /* sodium-ios */;
+			targetProxy = C1677FC3420D0C59DF5CFAF494C4A8B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		096AACFE8DE7FF8A84C128BEA303328E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D93565DF2318893E55D9D710C4E2BE2F /* Pods-sodium-ios_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-sodium-ios_Example/Pods-sodium-ios_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-sodium-ios_Example/Pods-sodium-ios_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5435021534D19A2A5908D55C7966AF91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91749D516282F13006201F159258A1DD /* Pods-sodium-ios_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-sodium-ios_Tests/Pods-sodium-ios_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-sodium-ios_Tests/Pods-sodium-ios_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E74312218356336A0C93D1909144DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 206D5FA393D69E5104F74CA8266E9BB7 /* sodium-ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABB26BCBAA3A53AE2C4AE8BDE8A2E568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B366B3CE5DACB7DB5C62359EA74B20FF /* Pods-sodium-ios_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-sodium-ios_Tests/Pods-sodium-ios_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-sodium-ios_Tests/Pods-sodium-ios_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B60DB868BC0D2485B93FD4CB8DB1B649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 120FA6AEF30D4A50A6185E1A88A461B4 /* sodium-ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F815E0212EE7148A9C5622D3C02566F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 384B4AECEC6A77D41C58EA99E48E4F62 /* Pods-sodium-ios_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-sodium-ios_Example/Pods-sodium-ios_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-sodium-ios_Example/Pods-sodium-ios_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36EF705AF1B7D2FF6FBD543DD5E50B08 /* Build configuration list for PBXAggregateTarget "sodium-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E74312218356336A0C93D1909144DEB /* Debug */,
+				B60DB868BC0D2485B93FD4CB8DB1B649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45A985067BC14CF35C05E4C6FFE4AEE5 /* Build configuration list for PBXNativeTarget "Pods-sodium-ios_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5435021534D19A2A5908D55C7966AF91 /* Debug */,
+				ABB26BCBAA3A53AE2C4AE8BDE8A2E568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FE308AB23CBBD88EE71A10CC9281405 /* Build configuration list for PBXNativeTarget "Pods-sodium-ios_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				096AACFE8DE7FF8A84C128BEA303328E /* Debug */,
+				F815E0212EE7148A9C5622D3C02566F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
