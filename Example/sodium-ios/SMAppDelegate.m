@@ -13,7 +13,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    NSInteger major = sodium_library_version_major();
+    NSLog(@"major = %ld", (long)major);
     return YES;
 }
 

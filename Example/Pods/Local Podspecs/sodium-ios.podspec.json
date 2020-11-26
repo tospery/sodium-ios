@@ -1,6 +1,6 @@
 {
   "name": "sodium-ios",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "A short description of sodium-ios.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/tospery/sodium-ios",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/tospery/sodium-ios.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "requires_arc": true,
   "platforms": {
